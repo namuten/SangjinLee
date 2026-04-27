@@ -1,0 +1,93 @@
+#contact {
+  background: var(--color-section-alt);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.contact-card {
+  background: var(--color-bg);
+  padding: 2.5rem 2rem;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+}
+
+.contact-phone {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+  transition: color var(--transition);
+}
+
+.contact-phone:hover {
+  color: var(--color-accent-dark);
+}
+
+.contact-note {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+.btn-kakao {
+  display: inline-block;
+  background: #FEE500;
+  color: #191919;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+  transition: background var(--transition);
+}
+
+.btn-kakao:hover {
+  background: #FFDA00;
+}
+
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.hours-table td {
+  padding: 0.4rem 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  vertical-align: top;
+}
+
+.hours-table td:first-child {
+  font-weight: 500;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  width: 90px;
+}
+
+.hours-table small {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+}

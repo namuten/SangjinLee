@@ -160,7 +160,35 @@
   </section>
 
   <!-- 섹션 5: 예약/문의 -->
-  <section id="contact"><!-- Task 7 --></section>
+  <section id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Reservation</p>
+        <h2 class="section-title">예약 & 문의</h2>
+      </div>
+      <div class="contact-grid fade-in">
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3 class="contact-card-title">전화 예약</h3>
+          <a id="contact-phone" href="" class="contact-phone"></a>
+          <p class="contact-note">전화 연결 즉시 예약 가능</p>
+        </div>
+        <!-- 카카오 카드: config.js의 kakaoChannelUrl이 비어있으면 JS가 숨김 -->
+        <div class="contact-card" id="kakao-card">
+          <div class="contact-icon">💬</div>
+          <h3 class="contact-card-title">카카오톡 문의</h3>
+          <a id="kakao-link" href="" target="_blank" rel="noopener" class="btn btn-kakao">
+            카카오톡 채널 문의
+          </a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🕐</div>
+          <h3 class="contact-card-title">영업시간</h3>
+          <table class="hours-table" id="hours-table"></table>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- 섹션 6: 오시는 길 -->
   <section id="map-section"><!-- Task 8 --></section>
