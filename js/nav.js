@@ -61,3 +61,14 @@ hoursTable.innerHTML = CONFIG.hours.map(h => `
     <td>${h.time}${h.note ? `<br><small>${h.note}</small>` : ''}</td>
   </tr>
 `).join('');
+
+document.querySelector('.copy-address')?.addEventListener('click', function() {
+  navigator.clipboard.writeText(this.dataset.address).then(() => {
+    this.textContent = '복사됨 ✓';
+    this.classList.add('copied');
+    setTimeout(() => {
+      this.textContent = '주소 복사';
+      this.classList.remove('copied');
+    }, 2000);
+  });
+});
