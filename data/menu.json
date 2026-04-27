@@ -1,0 +1,37 @@
+{
+  "_guide": "메뉴 추가/수정은 items 배열에서 합니다. price가 비어있으면 '가격 문의'로 표시됩니다.",
+  "categories": [
+    { "id": "galbi",  "label": "갈비류" },
+    { "id": "side",   "label": "추가메뉴" },
+    { "id": "drink",  "label": "주류" }
+  ],
+  "items": [
+    {
+      "category": "galbi",
+      "name": "수제 본갈비",
+      "desc": "두툼하게 손질한 대표 갈비. 육즙이 살아있는 한 점.",
+      "price": "16,000",
+      "unit": "1인분",
+      "image": "assets/images/menu-galbi.jpg",
+      "featured": true
+    },
+    {
+      "category": "side",
+      "name": "냉면",
+      "desc": "식사 마무리용 시원한 냉면.",
+      "price": "",
+      "unit": "",
+      "image": "assets/images/menu-naengmyeon.jpg",
+      "featured": false
+    },
+    {
+      "category": "side",
+      "name": "공기밥",
+      "desc": "",
+      "price": "",
+      "unit": "",
+      "image": "",
+      "featured": false
+    }
+  ]
+}
