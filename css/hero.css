@@ -32,7 +32,7 @@
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: var(--color-hero-overlay);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(17,17,17,0.8) 100%);
   z-index: 1;
 }
 
@@ -47,34 +47,36 @@
 .hero-label {
   font-family: var(--font-sans);
   font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 0.2em;
+  font-weight: 500;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--color-accent);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero-title {
   font-family: var(--font-serif);
-  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  font-size: clamp(3rem, 10vw, 6rem);
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   line-height: 1.1;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
 .hero-slogan {
   font-family: var(--font-sans);
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-size: clamp(1.1rem, 3vw, 1.35rem);
   font-weight: 300;
   line-height: 1.8;
-  color: rgba(255,255,255,0.85);
-  margin-bottom: 2.5rem;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
 .hero-actions {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -82,11 +84,11 @@
 /* 버튼 공통 */
 .btn {
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.05em;
-  padding: 0.85rem 2rem;
-  border-radius: 2px;
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
   transition: all var(--transition);
   display: inline-block;
 }
@@ -94,20 +96,24 @@
 .btn-primary {
   background: var(--color-accent);
   color: #fff;
+  box-shadow: 0 4px 15px rgba(200, 146, 42, 0.3);
 }
 
 .btn-primary:hover {
   background: var(--color-accent-dark);
   transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 146, 42, 0.4);
 }
 
 .btn-outline {
-  border: 1px solid rgba(255,255,255,0.7);
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.8);
   color: #fff;
 }
 
 .btn-outline:hover {
-  background: rgba(255,255,255,0.1);
+  background: #fff;
+  color: #111;
   transform: translateY(-2px);
 }
 

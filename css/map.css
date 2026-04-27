@@ -1,12 +1,12 @@
 #map-section {
   padding: 0;
-  background: var(--color-bg);
+  background: #111111;
 }
 
 .map-embed {
   width: 100%;
   height: 420px;
-  background: #e8e4de;
+  background: #222;
 }
 
 .map-embed iframe {
@@ -34,14 +34,14 @@
   font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 500;
-  color: var(--color-text-primary);
+  color: #fff;
   margin-bottom: 0.3rem;
 }
 
 .address-secondary {
   font-family: var(--font-sans);
   font-size: 0.85rem;
-  color: var(--color-text-light);
+  color: rgba(255,255,255,0.5);
   margin-bottom: 1rem;
 }
 
@@ -69,14 +69,14 @@
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-text-light);
+  color: rgba(255,255,255,0.4);
   margin-bottom: 0.5rem;
 }
 
 .map-info-text {
   font-family: var(--font-sans);
   font-size: 0.9rem;
-  color: var(--color-text-secondary);
+  color: rgba(255,255,255,0.7);
   line-height: 1.6;
 }
 

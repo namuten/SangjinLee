@@ -1,5 +1,5 @@
 #contact {
-  background: var(--color-section-alt);
+  background: #111111;
 }
 
 .contact-grid {
@@ -9,11 +9,12 @@
 }
 
 .contact-card {
-  background: var(--color-bg);
+  background: #1A1A1A;
   padding: 2.5rem 2rem;
   border-radius: 4px;
   text-align: center;
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.05);
 }
 
 .contact-icon {
@@ -25,7 +26,7 @@
   font-family: var(--font-serif);
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--color-text-primary);
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -46,7 +47,7 @@
 .contact-note {
   font-family: var(--font-sans);
   font-size: 0.8rem;
-  color: var(--color-text-light);
+  color: rgba(255,255,255,0.5);
 }
 
 .btn-kakao {
@@ -76,18 +77,18 @@
   padding: 0.4rem 0.25rem;
   font-family: var(--font-sans);
   font-size: 0.85rem;
-  color: var(--color-text-secondary);
+  color: rgba(255,255,255,0.7);
   vertical-align: top;
 }
 
 .hours-table td:first-child {
   font-weight: 500;
-  color: var(--color-text-primary);
+  color: #fff;
   white-space: nowrap;
   width: 90px;
 }
 
 .hours-table small {
   font-size: 0.75rem;
-  color: var(--color-text-light);
+  color: rgba(255,255,255,0.4);
 }
