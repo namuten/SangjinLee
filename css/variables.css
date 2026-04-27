@@ -1,0 +1,38 @@
+:root {
+  /* 색상 */
+  --color-bg: #FFFFFF;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #555555;
+  --color-text-light: #888888;
+  --color-accent: #C8922A;       /* 앰버/골드 — 갈비 색감 */
+  --color-accent-dark: #A6741E;
+  --color-hero-overlay: rgba(0, 0, 0, 0.45);
+  --color-section-alt: #F8F6F3;  /* 짝수 섹션 배경 — 아이보리 */
+  --color-border: #E8E4DE;
+  --color-nav-bg: rgba(255, 255, 255, 0.95);
+
+  /* 폰트 */
+  --font-serif: 'Noto Serif KR', serif;
+  --font-sans: 'Noto Sans KR', sans-serif;
+
+  /* 간격 */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+
+  /* 섹션 패딩 */
+  --section-padding: 5rem 1.5rem;
+  --section-padding-mobile: 3.5rem 1.25rem;
+
+  /* 최대 너비 */
+  --max-width: 1100px;
+
+  /* 전환 */
+  --transition: 0.3s ease;
+
+  /* 그림자 */
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 8px 32px rgba(0, 0, 0, 0.14);
+}
