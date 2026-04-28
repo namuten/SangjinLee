@@ -23,7 +23,7 @@
       "desc": "국내산 한돈 1등급 원육의 깊은 풍미",
       "price": "15,000",
       "unit": "180g",
-      "image": "",
+      "image": "assets/images/menu-samgyeopsal.jpg",
       "featured": false
     },
     {
@@ -32,7 +32,7 @@
       "desc": "육즙 가득한 한돈 1등급 프리미엄 목살",
       "price": "15,000",
       "unit": "180g",
-      "image": "",
+      "image": "assets/images/menu-moksal.jpg",
       "featured": false
     },
     {
@@ -41,7 +41,7 @@
       "desc": "한정 수량으로 판매하는 부드러운 등갈비",
       "price": "32,000",
       "unit": "600g",
-      "image": "",
+      "image": "assets/images/menu-deunggalbi.jpg",
       "featured": false
     },
     {
@@ -59,7 +59,7 @@
       "desc": "삼겹살 2인분과 꽃목살 2인분 구성",
       "price": "58,000",
       "unit": "720g",
-      "image": "",
+      "image": "assets/images/menu-samgyeopsal.jpg",
       "featured": false
     },
     {
@@ -68,7 +68,7 @@
       "desc": "부드러운 등갈비를 푸짐하게 즐기는 세트",
       "price": "62,000",
       "unit": "1,200g",
-      "image": "",
+      "image": "assets/images/menu-deunggalbi.jpg",
       "featured": false
     },
     {
@@ -86,7 +86,7 @@
       "desc": "속을 편안하게 달래주는 구수한 누룽지",
       "price": "4,000",
       "unit": "1인분",
-      "image": "",
+      "image": "assets/images/menu-nurungji.jpg",
       "featured": false
     },
     {
@@ -95,7 +95,7 @@
       "desc": "고기와 잘 어울리는 칼칼하고 구수한 찌개",
       "price": "2,000",
       "unit": "1뚝배기",
-      "image": "",
+      "image": "assets/images/menu-jjigae.jpg",
       "featured": false
     },
     {
@@ -104,7 +104,7 @@
       "desc": "",
       "price": "1,000",
       "unit": "",
-      "image": "",
+      "image": "assets/images/menu-jjigae.jpg",
       "featured": false
     },
     {
@@ -113,7 +113,7 @@
       "desc": "집에서도 매장 퀄리티 그대로 (쌈채소/장류 별도판매)",
       "price": "9,900",
       "unit": "250g 기준",
-      "image": "",
+      "image": "assets/images/menu-takeout.jpg",
       "featured": false
     }
   ]
