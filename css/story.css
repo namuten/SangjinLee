@@ -45,9 +45,9 @@
 
 .story-image {
   position: relative;
-  aspect-ratio: 4/5;
-  border-radius: 2px;
-  padding: 1.5rem 1.5rem 0 0;
+  height: 450px;
+  border-radius: 8px;
+  background: var(--color-surface);
 }
 
 .story-image-inner {
@@ -59,10 +59,11 @@
   display: flex;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  border-radius: 2px;
+  border-radius: 8px;
   box-shadow: var(--shadow-card);
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE/Edge */
+  background: #fdfbf7;
 }
 
 .story-image-inner::-webkit-scrollbar {
@@ -73,27 +74,19 @@
   flex: 0 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* DO NOT CROP */
+  padding: 1rem;
   scroll-snap-align: center;
   transition: transform 0.8s ease;
 }
 
 .story-image:hover .story-image-inner img {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
-/* 럭셔리 L자 형태 장식선 */
+/* 럭셔리 L자 형태 장식선 제거 (컨테이너 스타일에 맞지 않음) */
 .story-image::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 50%;
-  border-top: 2px solid var(--color-accent);
-  border-right: 2px solid var(--color-accent);
-  z-index: 0;
-  pointer-events: none;
+  display: none;
 }
 
 /* 가로 스크롤 힌트 */
