@@ -73,7 +73,7 @@
   flex: 0 0 100%;
   width: 100%;
   height: 400px; /* 데스크탑 고정 높이 */
-  object-fit: cover; /* 화면에 꽉 차게 */
+  object-fit: contain; /* 원본 비율 유지, 잘림 방지 */
   scroll-snap-align: center;
   transition: transform 0.8s ease;
 }
