@@ -26,7 +26,14 @@
   background: #f0ece6;
   cursor: pointer;
   scroll-snap-align: center;
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(200, 146, 42, 0.2);
 }
 
 .gallery-item img {
