@@ -95,3 +95,25 @@
   z-index: 0;
   pointer-events: none;
 }
+
+/* 가로 스크롤 힌트 */
+.scroll-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--color-accent);
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  margin-top: 1rem;
+  font-weight: 500;
+  animation: scrollPulse 2s infinite ease-in-out;
+}
+.scroll-indicator::before { content: '←'; }
+.scroll-indicator::after { content: '→'; }
+
+@keyframes scrollPulse {
+  0% { opacity: 0.5; transform: translateX(0); }
+  50% { opacity: 1; transform: translateX(3px); }
+  100% { opacity: 0.5; transform: translateX(0); }
+}
