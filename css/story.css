@@ -45,7 +45,7 @@
 
 .story-image {
   position: relative;
-  height: 450px;
+  height: clamp(300px, 50vh, 450px);
   border-radius: 8px;
   background: var(--color-surface);
 }
