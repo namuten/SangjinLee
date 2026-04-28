@@ -108,6 +108,42 @@
       "featured": false
     },
     {
+      "category": "drink",
+      "name": "소주",
+      "desc": "참이슬 / 처음처럼",
+      "price": "5,000",
+      "unit": "1병",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "drink",
+      "name": "맥주",
+      "desc": "카스 / 하이트",
+      "price": "6,000",
+      "unit": "1병",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "drink",
+      "name": "막걸리",
+      "desc": "달콤하고 구수한 전통 막걸리",
+      "price": "5,000",
+      "unit": "1병",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "drink",
+      "name": "음료수",
+      "desc": "콜라 / 사이다 / 오렌지주스",
+      "price": "2,000",
+      "unit": "1캔",
+      "image": "",
+      "featured": false
+    },
+    {
       "category": "takeout",
       "name": "양념(생) 갈비 포장",
       "desc": "집에서도 매장 퀄리티 그대로 (쌈채소/장류 별도판매)",
