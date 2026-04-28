@@ -1,9 +1,11 @@
 {
   "_guide": "메뉴 추가/수정은 items 배열에서 합니다. price가 비어있으면 '가격 문의'로 표시됩니다.",
   "categories": [
-    { "id": "galbi",  "label": "갈비류" },
-    { "id": "side",   "label": "추가메뉴" },
-    { "id": "drink",  "label": "주류" }
+    { "id": "galbi", "label": "고기메뉴" },
+    { "id": "set", "label": "세트메뉴" },
+    { "id": "side", "label": "식사류" },
+    { "id": "drink", "label": "주류" },
+    { "id": "takeout", "label": "포장" }
   ],
   "items": [
     {
@@ -11,25 +13,106 @@
       "name": "수제 본갈비",
       "desc": "두툼하게 손질한 대표 갈비. 육즙이 살아있는 한 점.",
       "price": "16,000",
-      "unit": "1인분",
+      "unit": "250g",
       "image": "assets/images/menu-galbi.jpg",
       "featured": true
     },
     {
+      "category": "galbi",
+      "name": "숙성 삼겹살",
+      "desc": "국내산 한돈 1등급 원육의 깊은 풍미",
+      "price": "15,000",
+      "unit": "180g",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "galbi",
+      "name": "육즙 꽃목살",
+      "desc": "육즙 가득한 한돈 1등급 프리미엄 목살",
+      "price": "15,000",
+      "unit": "180g",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "galbi",
+      "name": "한정 등갈비 (2인)",
+      "desc": "한정 수량으로 판매하는 부드러운 등갈비",
+      "price": "32,000",
+      "unit": "600g",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "set",
+      "name": "수제 본갈비 4인분 세트",
+      "desc": "가성비 뛰어난 본갈비 세트",
+      "price": "62,000",
+      "unit": "1,000g",
+      "image": "assets/images/menu-galbi.jpg",
+      "featured": true
+    },
+    {
+      "category": "set",
+      "name": "숙성 삼겹살 + 육즙 꽃목살 세트",
+      "desc": "삼겹살 2인분과 꽃목살 2인분 구성",
+      "price": "58,000",
+      "unit": "720g",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "set",
+      "name": "한정 등갈비 4인분 세트",
+      "desc": "부드러운 등갈비를 푸짐하게 즐기는 세트",
+      "price": "62,000",
+      "unit": "1,200g",
+      "image": "",
+      "featured": false
+    },
+    {
       "category": "side",
-      "name": "냉면",
-      "desc": "식사 마무리용 시원한 냉면.",
-      "price": "",
-      "unit": "",
+      "name": "물냉면 / 비빔냉면",
+      "desc": "살얼음 동동 띄워진 깔끔한 식사 마무리",
+      "price": "7,000",
+      "unit": "1인분",
       "image": "assets/images/menu-naengmyeon.jpg",
+      "featured": false
+    },
+    {
+      "category": "side",
+      "name": "누룽지",
+      "desc": "속을 편안하게 달래주는 구수한 누룽지",
+      "price": "4,000",
+      "unit": "1인분",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "side",
+      "name": "된장찌개",
+      "desc": "고기와 잘 어울리는 칼칼하고 구수한 찌개",
+      "price": "2,000",
+      "unit": "1뚝배기",
+      "image": "",
       "featured": false
     },
     {
       "category": "side",
       "name": "공기밥",
       "desc": "",
-      "price": "",
+      "price": "1,000",
       "unit": "",
+      "image": "",
+      "featured": false
+    },
+    {
+      "category": "takeout",
+      "name": "양념(생) 갈비 포장",
+      "desc": "집에서도 매장 퀄리티 그대로 (쌈채소/장류 별도판매)",
+      "price": "9,900",
+      "unit": "250g 기준",
       "image": "",
       "featured": false
     }
