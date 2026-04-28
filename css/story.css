@@ -54,15 +54,27 @@
   width: 100%;
   height: 100%;
   position: relative;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
   border-radius: 2px;
   box-shadow: var(--shadow-card);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.story-image-inner::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
 .story-image-inner img {
+  flex: 0 0 100%;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  scroll-snap-align: center;
   transition: transform 0.8s ease;
 }
 
